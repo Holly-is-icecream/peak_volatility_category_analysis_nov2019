@@ -16,7 +16,7 @@ This project analyzes customer purchase behavior to uncover **daily volatility p
 
 ---
 
-## 📁 File Structure
+## File Structure
 ├── 2019-Nov.csv # Raw dataset (November 2019)
 ├── daily_risk_metrics.csv # Aggregated daily metrics
 ├── peak_volatility_category_analysis.ipynb # Main analysis notebook
@@ -27,12 +27,12 @@ This project analyzes customer purchase behavior to uncover **daily volatility p
 
 ---
 
-## 📈 Key Visualizations
+## Key Visualizations
 
 ### 1. Daily Total Orders & Volatility  
 A dual-axis line chart showing:
-- 📘 **Daily Total Orders**  
-- 🟠 **7-day Rolling Volatility** of order counts  
+- **Daily Total Orders**  
+- **7-day Rolling Volatility** of order counts  
 
 Helps identify fluctuations and unusual customer behavior patterns.
 
@@ -43,7 +43,7 @@ A horizontal bar chart showing:
 
 ---
 
-## 🧮 Methodology
+## Methodology
 
 - **Data Preprocessing**
   - Convert timestamps to daily granularity
@@ -61,7 +61,7 @@ A horizontal bar chart showing:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Language:** Python 3
 - **Libraries:**
@@ -71,7 +71,7 @@ A horizontal bar chart showing:
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 - Behavioral volatility can signal operational risk or opportunity.
 - Rolling order standard deviation highlights peak shopping periods.
